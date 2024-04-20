@@ -1,8 +1,7 @@
-import './app.css'
-import App from './App.svelte'
+import CurrencyConverter from "./lib/CurrencyConverter.svelte";
 
-const app = new App({
-  target: document.getElementById('app'),
-})
+const app = new CurrencyConverter({
+  target: document.body,
+});
 
-export default app
+export default app;
